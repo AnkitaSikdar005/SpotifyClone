@@ -350,7 +350,7 @@ async function displayAlbums() {
 // Main function
 async function main() {
   // Get the list of all the songs from the first folder
-  await getSongs("songs/folder1");
+  await getSongs("songs/ArijitSingh");
   playMusic(songs[0], true);
 
   // Display all albums on the page
