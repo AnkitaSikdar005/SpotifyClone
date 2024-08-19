@@ -1,15 +1,8 @@
 {
-    "builds": [
-      {
-        "src": "index.html",
-        "use": "@vercel/static"
-      }
-    ],
     "routes": [
-      {
-        "src": "/songs/(.*)",
-        "dest": "/songs/$1"
-      }
+        {
+            "src": "/songs/(.*)",
+            "dest": "/songs/$1"
+        }
     ]
-  }
-  
+}
